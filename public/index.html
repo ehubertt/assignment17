@@ -25,16 +25,17 @@
             class="w3-button w3-display-topright">&times;</span>
               <section id="dialog-details">
                 <form id="add-craft-form" method="post" class="hidden">
+                    <input type="hidden" id="_id" name="_id">
                     <section class="section1">
                         <section3>
                             <h2>Make Changes to your Craft</h2>
                             <p>
                                 <label for="name ">Craft Name:</label>
-                                <input type="text" id="name" name="name" required />
+                                <input type="text" id="name" name="name" required minlength="3"/>
                             </p>
                             <p>
                                 <label for="description">Description:</label>
-                                <input type="text" id="description" name="description" required />
+                                <input type="text" id="description" name="description" required minlength="3"/>
                             </p>
                             <p id="supplies-p ">
                                 <label class="inline">Supplies:</label>

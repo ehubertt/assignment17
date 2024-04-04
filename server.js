@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
 
 let crafts = [];
     crafts[0] = {
-        "_id": "1",
+        "_id": 1,
         "name": "Beaded JellyFish",
         "image": "images/bead-jellyfish.jpg",
         "description": "Create a hanging jellyfish using eggcartons and multicolored beads",
@@ -43,7 +43,7 @@ let crafts = [];
         ]
     };
     crafts[1] = {
-        "_id": "2",
+        "_id": 2,
         "name": "Character Bookmarks",
         "image": "images/bookmarks.jpeg",
         "description": "Create a little birdy bookmark to always remin you were you were",
@@ -54,7 +54,7 @@ let crafts = [];
         ]
     };
     crafts[2] = {
-        "_id": "3",
+        "_id": 3,
         "name": "Button Flowers",
         "image": "images/button-flowers.jpeg",
         "description": "Create a fun bouquet of flowers with your favorite buttons",
@@ -66,7 +66,7 @@ let crafts = [];
         ]
     };
     crafts[3] = {
-        "_id": "4",
+        "_id": 4,
         "name": "Cheerio Necklaces",
         "image": "images/cheerio-necklace.webp",
         "description": "Create a fun and edible necklace",
@@ -76,7 +76,7 @@ let crafts = [];
         ]
     };
     crafts[4] = {
-        "_id": "5",
+        "_id": 5,
         "name": "Cotton Ball Cupcakes",
         "image": "images/cotton-ball-cupcakes.webp",
         "description": "Decorate your fun filled cupcake however you want.",
@@ -88,7 +88,7 @@ let crafts = [];
         ]
     };
     crafts[5] = {
-        "_id": "6",
+        "_id": 6,
         "name": "School Themed Mason Jars",
         "image": "images/decorated-jars.jpeg",
         "description": "Let's make mason jars to ",
@@ -100,7 +100,7 @@ let crafts = [];
         ]
     };
     crafts[6] = {
-        "_id": "7",
+        "_id": 7,
         "name": "Egg Carton Flowers",
         "image": "images/egg-carton-flowers.jpg",
         "description": "Make a beautiful bouquet with egg cartons and other items you can find around the house",
@@ -113,7 +113,7 @@ let crafts = [];
         ]
     };
     crafts[7] = {
-        "_id": "8",
+        "_id": 8,
         "name": "Finger Puppets",
         "image": "images/finger-puppets.jpeg",
         "description": "These little critters are easy to make, and will entertain your little one while they make a show.",
@@ -124,7 +124,7 @@ let crafts = [];
         ]
     };
     crafts[8] = {
-        "_id": "9",
+        "_id": 9,
         "name": "Ribbon Flower Headbands",
         "image": "images/flower-headbands.jpg",
         "description": "Let your little one show off her new style with these pretty and customizable headbands",
@@ -136,7 +136,7 @@ let crafts = [];
         ]
     };
     crafts[9] = {
-        "_id": "10",
+        "_id": 10,
         "name": "Hand Print Fish Puppets",
         "image": "images/handprint-fish.jpg",
         "description": "We all need to take every opportunity we can to remember those tiny hands, and what better way to do it, then to make fish puppets!",
@@ -148,7 +148,7 @@ let crafts = [];
         ]
     };
     crafts[10] = {
-        "_id": "11",
+        "_id": 11,
         "name": "Hand Print Tree",
         "image": "images/hand-print-tree.jpeg",
         "description": "This is a fun way to get your little one into finger painting.",
@@ -158,7 +158,7 @@ let crafts = [];
         ]
     };
     crafts[11] = {
-        "_id": "12",
+        "_id": 12,
         "name": "Melted Bead Bowl",
         "image": "images/melted-bead-bowl.jpeg",
         "description": "All they need to do is shape their faviorte design, warm it up and they have a brand new bowl.",
@@ -169,7 +169,7 @@ let crafts = [];
         ]
     };
     crafts[12] = {
-        "_id": "13",
+        "_id": 13,
         "name": "Monster Kites",
         "image": "images/monster-rolls.jpg",
         "description": "Let's make those scary toilet paper rolls fly!",
@@ -181,7 +181,7 @@ let crafts = [];
         ]
     };
     crafts[13] = {
-        "_id": "14",
+        "_id": 14,
         "name": "Pool Noodle Boats",
         "image": "images/noodle-boats.png",
         "description": "Let's make a boat that will actually float, due to the floating bottom of a pool noodle.",
@@ -192,7 +192,7 @@ let crafts = [];
         ]
     };
     crafts[14] = {
-        "_id": "15",
+        "_id": 15,
         "name": "Paper Plate Bees",
         "image": "images/paper-plate-bees.jpeg",
         "description": "Let's have fun with making cute little bees, or big bees actually.",
@@ -206,7 +206,7 @@ let crafts = [];
         ]
     };
     crafts[15] = {
-        "_id": "16",
+        "_id": 16,
         "name": "Paper Plate Dinosaurs",
         "image": "images/paper-plate-dinosaurs.jpg",
         "description": "Who would have thought that half a paper plate would be the base of a dinosaur.",
@@ -218,7 +218,7 @@ let crafts = [];
         ]
     };
     crafts[16] = {
-        "_id": "17",
+        "_id": 17,
         "name": "Porcupine Leafs",
         "image": "images/porcupine-leaf.webp",
         "description": "Let's turn an ordinary paper plate into a fun filled mask.",
@@ -230,7 +230,7 @@ let crafts = [];
         ]
     };
     crafts[17] = {
-        "_id": "18",
+        "_id": 18,
         "name": "Rainbow Cloud",
         "image": "images/rainbow-cloud.webp",
         "description": "Some cotton and color and you'll have a beautiful rainbow.",
@@ -241,7 +241,7 @@ let crafts = [];
         ]
     };
     crafts[18] = {
-        "_id": "19",
+        "_id": 19,
         "name": "Fun Shaped Crayons",
         "image": "images/shaped-crayons.jpg",
         "description": "Let's melt some crayons together and let them harden into fun shapes.",
@@ -251,7 +251,7 @@ let crafts = [];
         ]
     };
     crafts[19] = {
-        "_id": "20",
+        "_id": 20,
         "name": "Straw Farris Wheel",
         "image": "images/straw-faris-wheel.jpg",
         "description": "It might be too small to ride, but this farris wheel is the most colorful of all.",
@@ -261,7 +261,7 @@ let crafts = [];
         ]
     };
     crafts[20] = {
-        "_id": "21",
+        "_id": 21,
         "name": "Sunny String",
         "image": "images/sun-string.jpg",
         "description": "Let's practice our fine motor skills while we weave the string into a fun sun.",
@@ -273,7 +273,7 @@ let crafts = [];
         ]
     };
     crafts[21] = {
-        "_id": "22",
+        "_id": 22,
         "name": "Tissue Ballerinas",
         "image": "images/tisue-dancer.jpeg",
         "description": "These beautiful dancers will look great on display",
@@ -284,7 +284,7 @@ let crafts = [];
         ]
     };
     crafts[22] = {
-        "_id": "23",
+        "_id": 23,
         "name": "Toilet Paper Roll Animals",
         "image": "images/toilet-paper-animals.jpeg",
         "description": "These beautiful dancers will look great on display",
@@ -295,7 +295,7 @@ let crafts = [];
         ]
     };
     crafts[23] = {
-        "_id": "24",
+        "_id": 24,
         "name": "Toilet Paper Butterfly",
         "image": "images/toilet-paper-butterfly.jpg",
         "description": "Such a sweat little flyer",
@@ -307,7 +307,7 @@ let crafts = [];
         ]
     };
     crafts[24] = {
-        "_id": "25",
+        "_id": 25,
         "name": "Valentines Jar",
         "image": "images/valentines-jar.webp",
         "description": "So much hearts all in one",
@@ -372,6 +372,19 @@ let crafts = [];
     }
   
     res.send(crafts);
+  });
+
+  app.delete("/api/crafts/:id" , (req, res) => {
+    const id = parseInt(req.params.id);
+    const craft = crafts.find((r) => r._id === id);
+    
+    if(!craft){
+        res.send(404).send("Craft with given id was not found");
+    }
+
+    const index = crafts.indexOf(craft);
+    crafts.splice(index, 1);
+    res.send(craft);
   });
   
   

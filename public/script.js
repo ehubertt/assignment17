@@ -76,7 +76,7 @@ const showCrafts = async () => {
     flexDialogSection.appendChild(nameHeader);
 
     const dLink = document.createElement("a");
-    dLink.innerHTML = "	&#9249;";
+    dLink.innerHTML = "&#x2717";
     nameHeader.append(dLink);
     dLink.id = "delete-link";
 
@@ -151,7 +151,9 @@ const showCrafts = async () => {
       });
     } else {
       //put request
-      response = await fetch(`/api/crafts/${form._id.value}`, {
+      console.log(form._id.value);
+      console.log(`/api/crafts/${form._id.value}`);
+      response = await fetch(`api/crafts/${form._id.value}`, {
         method: "PUT",
         body: formData,
       });
@@ -169,22 +171,29 @@ const showCrafts = async () => {
   };
   
   const deleteCraft = async(craft)=> {
-    let response = await fetch(`/api/crafts/${craft._id}`, {
-      method:"DELETE",
-      headers:{
-        "Content-Type":"application/json;charset=utf-8"
-      }
-    });
-  
-    if(response.status != 200){
-      console.log("Error deleting");
-      return;
+    // Prompt the user to confirm deletion
+    const confirmDelete = confirm("Are you sure you want to delete this item?");
+
+    // If user confirms deletion
+    if (confirmDelete) {
+        let response = await fetch(`/api/crafts/${craft._id}`, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8"
+            }
+        });
+
+        if (response.status === 200) {
+            resetForm();
+            showCrafts();
+            document.getElementById("dialog").style.display = "none";
+        } else {
+            console.log("Error deleting");
+        }
+    } else {
+        // If user cancels deletion, do nothing
+        return;
     }
-  
-    let result = await response.json();
-    resetForm();
-    showCrafts();
-    document.getElementById("dialog").style.display = "none";
   };
 
 
